@@ -1,0 +1,42 @@
+.pri{
+display: flex;
+}
+.one{
+background-color: rgb(0, 247, 255);
+width: 15em;
+height: 3em;
+
+}
+.two{
+background-color: white;
+width: 15em;
+height: 3em;
+display: flex;
+justify-content: center;
+
+
+
+}
+.three{
+    background-color: rgb(0, 247, 255);
+    width: 15em;
+    height: 3em;
+}
+.two img{
+    place-items: center;
+    width: 35px;
+    height: 35px;
+}
+.pol{
+    display: flex;
+}
+.pol1{
+    background-color: red;
+    width: 15em;
+    height: 3em;
+}
+.pol2{
+    background-color: white;
+    width: 15em;
+    height: 3em;
+}
