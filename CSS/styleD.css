@@ -1,0 +1,63 @@
+body{
+
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    
+    }
+    .bandera{
+        margin: auto;
+        
+        border: 2px solid black;
+        width: 25em;
+        height: 10em ;
+        
+        }
+        .asu{
+            background-color: #012169;
+            width: 100%;
+            height: 100%;
+        }
+        .asu img{
+            width:100%;
+            height: 100%;
+        }
+        .frans{
+            display: flex;
+            width:100%;
+            height: 100%; 
+        }
+        .fra1{
+            background-color: blue;
+width: 33.33%;
+height: 100%;
+        }
+        .fra2{
+            background-color: white;
+            width: 33.33%;
+            height: 100%;
+        }
+        .fra3{
+            background-color: red;
+            width: 33.33%;
+            height: 100%;
+        }
+        .dina{
+            background-color: red;
+            width: 100%;
+            height: 100%; 
+        }
+        .dina img{
+            width: 101.5%;
+            height: 101.5%;     
+        }
+        .tune{
+            background-color: rgba(204, 14, 46, 0.932);
+            width: 100%;
+            height: 100%; 
+            align-content: center;
+        }
+        .tune img{
+            width: 35%;
+            mix-blend-mode:luminosity;
+        }
