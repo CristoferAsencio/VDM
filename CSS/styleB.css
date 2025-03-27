@@ -1,0 +1,103 @@
+body{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.nav {
+    position: fixed;
+   
+    width: 100%;
+    background-color: #392804;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    
+}
+.nav a {
+    color: rgb(225, 191, 191);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.nav a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+.bandera {
+    width: 400px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.Inglaterra div {
+    height: 100%;
+}
+.Inglaterra .blanco { background-color: white; }
+.blanco img{
+    place-items: center;
+    width: 100%;
+    height: 100%;
+}
+.Estados-Unidos div {
+    height: 100%;
+}
+.Estados-Unidos .blanco { background-color: white; }
+.blanco img{
+    place-items: center;
+    width: 100%;
+    height: 100%;
+}
+.Iran div{
+    height: 100%;
+}
+.Iran .verde{
+    background-color: green;
+}
+.Iran .blanco1{
+    background-color: white;
+}
+.blanco1 img{
+    
+    place-items: center;
+    width: 90px;
+    height: 60px;
+}
+.Iran .rojo{
+    background-color: red;
+}
+p{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 400%;
+    color: rgb(12, 123, 127);
+
+}
+.Gales div{
+    height: 100%;
+}
+.Gales .blanco2{
+    height: 50%;
+    background-color: white;
+}
+.blanco2 img{
+    position: absolute;
+    place-items: center;
+    width: 200px;
+    height: 200px;
+
+}
+.Gales .verde{
+    height: 50%;
+    background-color: green;
+}
+
