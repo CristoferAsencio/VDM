@@ -1,7 +1,7 @@
 .Titulo{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    color: rgb(137, 133, 12);
+    color: #614404;
     font-size: 750% ;
     text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 
@@ -39,7 +39,7 @@ body{
 footer{
     text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
     font-style: initial;
-    color: rgb(137, 133, 12);
+    color: #614404;
     text-align: center;
     font-size: 250%;
 }
