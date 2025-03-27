@@ -3,9 +3,10 @@
 background-color: rgb(149, 21, 21);
 width: 15em;
 height: 7em;
+border: 2px solid black;
 }
 .logom {
-    display: flex; /* Asegura que la imagen también se centre */
+    display: flex; 
     justify-content: center;
     align-items: center;
 }
@@ -19,6 +20,7 @@ height: 7em;
     background-color: white;
 width: 15em;
 height: 7em;
+border: 2px solid black;
 }
 
 .arriba{
@@ -30,7 +32,15 @@ height: 7em;
     background-color:white;
     width: 100%;
     height: 33.33%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    
 }
+.centro img{
+    width: 50px;
+    height: 50px; 
+    }
 .abajo{
     background-color:rgb(27, 27, 153);
     width: 100%;
@@ -41,6 +51,7 @@ height: 7em;
     background-color: rgb(149, 21, 21);
 width: 15em;
 height: 7em;
+border: 2px solid black;
 }
 .negro{
     background-color: black;
@@ -65,6 +76,7 @@ height: 7em;
     background-color: rgb(149, 21, 21);
     width: 15em;
     height: 7em;
+    border: 2px solid black;
 }
 .rojo1{
     background-color: crimson;
@@ -77,10 +89,51 @@ height: 7em;
     width: 33.33%;
     height: 100%;
     float: left;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
 }
+.blanco1 img{
+    width: 50px;
+    height: 50px; 
+
+}
+
 .rojo2{
     background-color: crimson;
     width: 33.33%;
     height: 100%;
     float: left;
+}
+p{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 400%;
+    color: rgb(12, 123, 127);
+    text-align: center;
+}
+.nav {
+    position: fixed;
+   
+    width: 100%;
+    background-color: #392804;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    
+}
+.nav a {
+    color: rgb(225, 191, 191);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.nav a:hover {
+    background: #555;
+    border-radius: 5px;
 }
