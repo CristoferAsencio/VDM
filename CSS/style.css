@@ -1,8 +1,9 @@
 .Titulo{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: xx-large;
-    color: aliceblue;
+    color: rgb(137, 133, 12);
+    font-size: 750% ;
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 
 }
 body{
@@ -11,3 +12,44 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+.nav {
+    position: fixed;
+   
+    width: 100%;
+    background-color: #392804;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    
+}
+.nav a {
+    color: rgb(225, 191, 191);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.nav a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+footer{
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    font-style: initial;
+    color: rgb(137, 133, 12);
+    text-align: center;
+    font-size: 250%;
+}
+img{
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}
+p{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 400%;
+    color: rgb(12, 123, 127);}

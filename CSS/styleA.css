@@ -1,0 +1,100 @@
+p{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 400%;
+    color: rgb(12, 123, 127);
+
+}
+body{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bandera {
+    width: 400px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.paises-bajos div {
+    height: 33.33%;
+}
+.paises-bajos .rojo { background-color: red; }
+.paises-bajos .blanco { background-color: white; }
+.paises-bajos .azul { background-color: blue; }
+
+.senegal {
+    display: flex;
+    flex-direction: row;
+}
+.senegal div {
+    width: 33.33%;
+    height: 100%;
+}
+.senegal .verde { background-color: green; }
+.senegal .amarillo { background-color: yellow; display: flex; justify-content: center; align-items: center; }
+.senegal .rojo { background-color: red; }
+.senegal .estrella {
+    font-size: 2rem;
+    color: green;
+}
+
+.ecuador {
+    display: flex;
+    flex-direction: column;
+}
+.ecuador div {
+    height: 33.33%;
+}
+.ecuador .amarillo { background-color: yellow; height: 50%;  }
+.azul img{
+    place-items: center;
+    width: 90px;
+    height: 60px;
+}
+.ecuador .azul { background-color: blue; }
+.ecuador .rojo { background-color: red; }
+
+.catar {
+    display: flex;
+    align-items: center;
+    background-color: maroon;
+    position: relative;
+}
+.catar::before {
+    content: "";
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    clip-path: polygon(100% 0, 87% 10%, 100% 20%, 87% 30%, 100% 40%, 87% 50%, 100% 60%, 87% 70%, 100% 80%, 87% 90%, 100% 100%, 0 100%, 0 0);
+}
+.nav {
+    position: fixed;
+   
+    width: 100%;
+    background-color: #392804;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    
+}
+.nav a {
+    color: rgb(225, 191, 191);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.nav a:hover {
+    background: #555;
+    border-radius: 5px;
+}
